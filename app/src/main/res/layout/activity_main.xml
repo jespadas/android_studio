@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <RadioGroup
+        android:id="@+id/rg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -40,7 +41,7 @@
             android:text="TextView" />
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/et"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -50,7 +51,7 @@
     </LinearLayout>
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/iv"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -77,6 +78,16 @@
             android:layout_weight="1"
             android:backgroundTint="@color/maCouleur"
             android:text="@string/valider"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btNext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/maCouleur"
+            android:onClick="onBtNextClick"
+            android:text="Next"
             android:textColor="@android:color/white" />
     </LinearLayout>
 

@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button btValider, btAnnuler;
     private RadioButton rbPasAimer;
     private RadioButton rbAimer;
-    private Button mBtNext;
+    private Button btNext;
     private ImageView iv;
     private EditText et;
     private RadioGroup rg;
